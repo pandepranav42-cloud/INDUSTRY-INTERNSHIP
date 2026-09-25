@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Logs & temp
+*.log
+*.tmp
+.cache/
+
+# Dependencies (only if you add tooling later)
+node_modules/
+package-lock.json
+
+# Build output (only if you add a bundler later)
+dist/
+build/
