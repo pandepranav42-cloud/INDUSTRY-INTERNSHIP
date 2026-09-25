@@ -1,0 +1,14 @@
+Dataset 1 (synthetic) - overall RMSE % (mean over the six C&I portfolios), TW = 10:
+  Baseline  energy only:   8.22 %   energy + max temp:   8.22 %
+  LR        energy only:   7.46 %   energy + max temp:   6.05 %
+  NLR       energy only:   7.82 %   energy + max temp:   6.66 %
+  -> Both ML models beat the 8.22 % average baseline by a wide margin; the best
+     combination is LR with the 'Energy consumption + max temperature' inputs (6.05 %).
+     Paper (Table 2): Baseline 17.88 %, LR 3.67 %, NLR 3.07 % -> 2.87 % with temp.
+
+Dataset 2 (synthetic) - test window 28-30 Dec 2020, RMSE in kWh:
+  Market average baseline (TW=10):            RMSE =   76.89
+  Best Model 1: NLR-Demand (TW=7):  RMSE =   49.33
+  Best Model 2: NLR-DemandTemp (TW=14):  RMSE =   27.78
+  -> Model 2 (consecutive-lag windows) beats Model 1 (same-slot windows) and both
+     ML models beat the average baseline, matching the paper's conclusions.
