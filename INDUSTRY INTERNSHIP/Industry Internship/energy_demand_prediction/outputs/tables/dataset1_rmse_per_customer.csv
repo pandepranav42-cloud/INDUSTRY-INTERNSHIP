@@ -1,0 +1,37 @@
+customer,setting,model,rmse_pct
+Chemical Plant,Energy,Baseline,7.26012754505929
+Chemical Plant,Energy,LR,4.3266621049766725
+Chemical Plant,Energy,NLR,5.47690736082152
+Chemical Plant,Energy+Tmax,Baseline,7.26012754505929
+Chemical Plant,Energy+Tmax,LR,4.35238914489269
+Chemical Plant,Energy+Tmax,NLR,6.2314609743328155
+Telecom,Energy,Baseline,2.731189116710716
+Telecom,Energy,LR,2.0664030411511214
+Telecom,Energy,NLR,2.051330822376792
+Telecom,Energy+Tmax,Baseline,2.731189116710716
+Telecom,Energy+Tmax,LR,2.0596378315322097
+Telecom,Energy+Tmax,NLR,2.778768216429552
+Telecom VIC,Energy,Baseline,4.333878763022179
+Telecom VIC,Energy,LR,2.581838941896793
+Telecom VIC,Energy,NLR,2.6197520232687848
+Telecom VIC,Energy+Tmax,Baseline,4.333878763022179
+Telecom VIC,Energy+Tmax,LR,2.6701638387935187
+Telecom VIC,Energy+Tmax,NLR,3.0027540860848285
+University,Energy,Baseline,19.564145708892784
+University,Energy,LR,15.240641514509024
+University,Energy,NLR,16.28503300565739
+University,Energy+Tmax,Baseline,19.564145708892784
+University,Energy+Tmax,LR,12.793633013139363
+University,Energy+Tmax,NLR,13.04420790790438
+Water Utility 2,Energy,Baseline,8.741974864781815
+Water Utility 2,Energy,LR,13.021571921594052
+Water Utility 2,Energy,NLR,12.98709880317854
+Water Utility 2,Energy+Tmax,Baseline,8.741974864781815
+Water Utility 2,Energy+Tmax,LR,8.166288820767802
+Water Utility 2,Energy+Tmax,NLR,8.577326182040048
+Water Utility 5,Energy,Baseline,6.717959376613711
+Water Utility 5,Energy,LR,7.521564428749113
+Water Utility 5,Energy,NLR,7.496902986834404
+Water Utility 5,Energy+Tmax,Baseline,6.717959376613711
+Water Utility 5,Energy+Tmax,LR,6.255981854194695
+Water Utility 5,Energy+Tmax,NLR,6.3270622805988825
